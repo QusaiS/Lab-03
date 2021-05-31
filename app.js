@@ -1,23 +1,31 @@
-var userName=prompt('what is your name?  ');
+var userName=prompt('ما هو اسمك ؟  ');
 
- alert('Welcome ' + userName+' to our website'); 
+ alert('اهلاً بك ' + userName+' في موقعنا'); 
+
+ var m2 = prompt('كم هو عمرك ؟ ');
  
- var important=prompt('did you create website befor? if yes press 1 if no press 2 ');
+ var important=prompt('هل زرت فلسطين من قبل ؟ اذا نعم اضغط 1 اذا لا اصغط  2 ');
 
-if ( important == 1 ){ alert('Amazing')
+if ( important == 1 ){ alert('جميل جداً')
 }
- else {" Thats amazing Here you will learn how to draw your first website "
+ else {" سنخبرك هنا بمعلومات جديدة في موقعنا "
  }
-var Wireframing = prompt("Are you intrested to learn about wireframing?");
+var Quds = prompt("هل تحب فلسطين؟");
   
    
-if ( Wireframing == "yes" ) {
-  document.write("<img src='https://balsamiq.com/assets/learn/articles/mobile-web.png'>") }
+if ( Quds == "نعم" ) {
+  document.write("<img src='https://dozdani.com/uploads/thumbs/bc/bc6c1cac2888ffa72f433c17486282d5.jpg'>") }
   else{
-    document.write("<h4>welcome "+userName+"</h4>");
+    document.write("<h3>welcome "+userName+"</h3>");
     }
 
 var answer = prompt('Enter your password  ');
 while (answer != '1234') {
  answer = prompt('Enter your password  (1234)');
 }
+
+function userAge(m2) {
+   console.log('Your Age is', m2);
+   document.write(`Your Age is  ${m2} `);
+ }
+ userAge( m2 );
