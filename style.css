@@ -1,0 +1,44 @@
+header img {
+  width: 80px;
+}
+
+.header-nav {
+  float: right
+
+}
+
+.header-nav ul li {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+h1 {
+  text-align: right;
+  margin: 40px;
+  color: #ffc947;
+}
+
+main img {
+  width: 500px;
+  height: 300px;
+}
+
+.main-nav p {
+ text-align: center;
+  margin: 10px;
+  color: green;
+
+}
+
+.main-nav1 or li {
+text-align: right;
+  margin: 10px;
+  color: green;
+}
+footer {
+  text-align: center;
+    margin: 10px;
+  font-size: 12px;
+}
