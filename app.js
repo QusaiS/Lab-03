@@ -4,10 +4,7 @@ var userName=prompt('ما هو اسمك ؟  ');
 
  var m2 = prompt('كم هو عمرك ؟ ');
  
- function userAge(m2) {
-   console.log('Your Age is', m2);
-   document.write(`Your Age is  ${m2} `);
- }
+ 
  userAge( m2 );
 
  var important=prompt('هل زرت فلسطين من قبل ؟ اذا نعم اضغط 1 اذا لا اصغط  2 ');
@@ -31,3 +28,8 @@ while (answer != '1234') {
 }
 
 
+ 
+ function userAge(m2) {
+   console.log('Your Age is', m2);
+   document.write(`Your Age is  ${m2} `);
+ }
